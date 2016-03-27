@@ -1,14 +1,33 @@
 {
-  "name": "tcodeship",
+  "name": "harry_mid",
   "version": "1.0.0",
-  "description": "",
+  "description": "``` $ npm install ``` ##How to start server ``` $ npm start ``` ##How to test ``` $ npm test ``` ##Open Heroku ``` http://harrypotter-pai.herokuapp.com/ ```",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mocha-generators": "^1.2.0",
+    "nightmare": "^2.2.0",
+    "standard": "^6.0.8"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanokporn/harry_mid.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "chai": "^3.5.0"
-  }
+  "bugs": {
+    "url": "https://github.com/chanokporn/harry_mid/issues"
+  },
+  "homepage": "https://github.com/chanokporn/harry_mid#readme"
 }
